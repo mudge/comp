@@ -47,8 +47,8 @@ extract_name = proc { |attributes| attributes.fetch('name') }
 
 Requiring `comp` will require two files:
 
-* `comp/proc`: add `Proc#*`;
-* `comp/method`: add `Method#*`.
+* `comp/proc`: add [`Proc#*`](#proc) if it hasn't already been defined;
+* `comp/method`: add [`Method#*`](#method) if it hasn't already been defined.
 
 ## API Documentation
 
