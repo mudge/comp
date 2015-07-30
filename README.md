@@ -92,6 +92,13 @@ blocks) and then call `f` with the result.
 
 Good question: I'd like to [change](https://bugs.ruby-lang.org/issues/6284) [that](https://github.com/ruby/ruby/pull/935).
 
+## Acknowledgements
+
+* [Piotr Solnica's Transproc](http://solnic.github.io/transproc/) for
+  initially inspiring me to look into function composition in Ruby;
+* [Tom Stuart](http://codon.com/) for suggesting that I extract this into a
+  gem.
+
 ## License
 
 Copyright © 2015 Paul Mucur.
