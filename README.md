@@ -80,7 +80,7 @@ class Number
   end
 end
 
-(number.new.method(:double) * number.new.method(:add)).call(2, 3)
+(Number.new.method(:double) * Number.new.method(:add)).call(2, 3)
 #=> 10
 ```
 
